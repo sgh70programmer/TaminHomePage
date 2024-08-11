@@ -1,0 +1,985 @@
+﻿<!DOCTYPE html>
+<html lang="en" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tamin HomePage</title>
+    <link rel="icon" href="images/logo-tamin.png" type="image/png">
+    <link rel="stylesheet" href="./styles/app.css">
+    <!-- <link rel="stylesheet" href="./styles/responsive.css"> -->
+    <link rel="stylesheet" href="./styles/swiper-bundle.min.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <nav class="nav">
+                <ul class="menu">
+                    <li data-section="home" class="menu__item menu__item--active">
+                        <a href="#" class="menu__link">خانه</a>
+                    </li>
+                    <li data-section="daramad" class="menu__item">
+                        <a href="#" class="menu__link">وصول حق بیمه</a>
+                    </li>
+                    <li data-section="fan-mostamari" class="menu__item">
+                        <a href="#" class="menu__link">بیمه شدگان و مستمریها</a>
+                    </li>
+                    <li data-section="namnevici" class="menu__item">
+                        <a href="#" class="menu__link">نامنویسی و حسابهای انفرادی</a>
+                    </li>
+                    <li data-section="edari-mali" class="menu__item">
+                        <a href="#" class="menu__link">اداری و مالی</a>
+                    </li>
+                    <li data-section="fanavari" class="menu__item">
+                        <a href="#" class="menu__link">فناوری اطلاعات</a>
+                    </li>
+                    <li data-section="others" class="menu__item">
+                        <a href="#" class="menu__link">سایر سامانه ها</a>
+                    </li>
+                    <li data-section="calender" class="menu__item">
+                        <a href="#" class="menu__link">تقویم</a>
+                    </li>
+                </ul>
+                
+                <h1 class="nav__logo">TAMIN</h1>
+                <div class="nav__toggle-icon">
+                    <div class="nav__toggle-line"></div>
+                </div>
+            </nav>
+            <span class="date"></span>
+        </div>
+
+    </header>
+    <main class="main">
+        <section class="home">
+            <div class="container">
+                <h1 id="home-title"></h1>
+            </div>
+        </section>
+        <section class="daramad">
+            <div class="container">
+                <div class="section-head">
+                    <h3 class="section-head__title">وصول حق بیمه</h3>
+                    <span class="section-head__line"></span>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-6 col-sm-4 col-lg-3">
+                        <div class="service service--purple">
+                            <img src="images/نامنویسی کارگاه.png" class="service__icon" alt="">
+                            <h4 class="service__title">نامنویسی کارگاه</h4>
+
+                            <a href="https://workshop.tamin.ir/" target="_blank"
+                                class="app-btn  package__link">مشاهده</a>
+                            <svg class="service__wave" xmlns="http://www.w3.org/2000/svg" width="369.92"
+                                viewBox="0 0 369.92 223.59">
+                                <path id="shape"
+                                    d="M1249.08,2700.557s15.007-66.794,51.8-54.34,43.02,57.737,121.7,13.585,95.662-58.3,124.531-23.774S1619,2601.5,1619,2601.5v223.59H1249.08Z"
+                                    transform="translate(-1249.08 -2601.498)" fill="#803afb" />
+                            </svg>
+
+                        </div>
+                    </div>
+                    <div class="col-6 col-sm-4 col-lg-3">
+                        <div class="service service--yellow">
+                            <img src="images/باجه دریافت.png" class="service__icon" alt="">
+                            <h4 class="service__title">باجه دریافت</h4>
+                            <a href="https://baje.tamin.ir/" target="_blank" class="app-btn  package__link">مشاهده</a>
+                            <svg class="service__wave" xmlns="http://www.w3.org/2000/svg" width="369.92"
+                                viewBox="0 0 369.92 223.59">
+                                <path id="shape"
+                                    d="M1249.08,2700.557s15.007-66.794,51.8-54.34,43.02,57.737,121.7,13.585,95.662-58.3,124.531-23.774S1619,2601.5,1619,2601.5v223.59H1249.08Z"
+                                    transform="translate(-1249.08 -2601.498)" fill="#ffbb01" />
+                            </svg>
+
+                        </div>
+                    </div>
+                    <div class="col-6 col-sm-4 col-lg-3">
+                        <div class="service service--pink">
+                            <img src="images/دفاتر قانونی.png" class="service__icon" alt="">
+                            <h4 class="service__title">دفاتر قانونی</h4>
+                            <a href="https://audit.tamin.ir/" target="_blank" class="app-btn  package__link">مشاهده</a>
+                            <svg class="service__wave" xmlns="http://www.w3.org/2000/svg" width="369.92"
+                                viewBox="0 0 369.92 223.59">
+                                <path id="shape"
+                                    d="M1249.08,2700.557s15.007-66.794,51.8-54.34,43.02,57.737,121.7,13.585,95.662-58.3,124.531-23.774S1619,2601.5,1619,2601.5v223.59H1249.08Z"
+                                    transform="translate(-1249.08 -2601.498)" fill="#f5276c" />
+                            </svg>
+
+                        </div>
+                    </div>
+                    <div class="col-6 col-sm-4 col-lg-3">
+                        <div class="service service--orange">
+                            <img src="images/بازرسی.png" class="service__icon" alt="">
+                            <h4 class="service__title">بازرسی کارگاه</h4>
+                            <a href="https://inspection.tamin.ir/" target="_blank"
+                                class="app-btn  package__link">مشاهده</a>
+
+                            <svg class="service__wave" xmlns="http://www.w3.org/2000/svg" width="369.92"
+                                viewBox="0 0 369.92 223.59">
+                                <path id="shape"
+                                    d="M1249.08,2700.557s15.007-66.794,51.8-54.34,43.02,57.737,121.7,13.585,95.662-58.3,124.531-23.774S1619,2601.5,1619,2601.5v223.59H1249.08Z"
+                                    transform="translate(-1249.08 -2601.498)" fill="#ff5823" />
+                            </svg>
+
+                        </div>
+                    </div>
+                    <div class="col-6 col-sm-4 col-lg-3">
+                        <div class="service service--blue">
+                            <img src="images/بانک درآمد.png" class="service__icon" alt="">
+                            <h4 class="service__title">بانک درآمد</h4>
+                            <a href="https://incoming.tamin.ir/" target="_blank"
+                                class="app-btn  package__link">مشاهده</a>
+                            <svg class="service__wave" xmlns="http://www.w3.org/2000/svg" width="369.92"
+                                viewBox="0 0 369.92 223.59">
+                                <path id="shape"
+                                    d="M1249.08,2700.557s15.007-66.794,51.8-54.34,43.02,57.737,121.7,13.585,95.662-58.3,124.531-23.774S1619,2601.5,1619,2601.5v223.59H1249.08Z"
+                                    transform="translate(-1249.08 -2601.498)" fill="#03acf8" />
+                            </svg>
+
+                        </div>
+                    </div>
+                    <div class="col-6 col-sm-4 col-lg-3">
+                        <div class="service service--green">
+                            <img src="images/پرونده الکترونیک.png" class="service__icon" alt="">
+                            <h4 class="service__title">پرونده الکترونیک</h4>
+                            <a href="https://erecords.tamin.ir/" target="_blank"
+                                class="app-btn  package__link">مشاهده</a>
+                            <svg class="service__wave" xmlns="http://www.w3.org/2000/svg" width="369.92"
+                                viewBox="0 0 369.92 223.59">
+                                <path id="shape"
+                                    d="M1249.08,2700.557s15.007-66.794,51.8-54.34,43.02,57.737,121.7,13.585,95.662-58.3,124.531-23.774S1619,2601.5,1619,2601.5v223.59H1249.08Z"
+                                    transform="translate(-1249.08 -2601.498)" fill="#49b846" />
+                            </svg>
+
+                        </div>
+                    </div>
+                    <div class="col-6 col-sm-4 col-lg-3">
+                        <div class="service service--purple">
+                            <img src="images/فنی درآمد.png" class="service__icon" alt="">
+                            <h4 class="service__title">فنی درآمد</h4>
+
+                            <a href="http://10.16.1.53" target="_blank"
+                                class="app-btn  package__link">مشاهده</a>
+                            <svg class="service__wave" xmlns="http://www.w3.org/2000/svg" width="369.92"
+                                viewBox="0 0 369.92 223.59">
+                                <path id="shape"
+                                    d="M1249.08,2700.557s15.007-66.794,51.8-54.34,43.02,57.737,121.7,13.585,95.662-58.3,124.531-23.774S1619,2601.5,1619,2601.5v223.59H1249.08Z"
+                                    transform="translate(-1249.08 -2601.498)" fill="#803afb" />
+                            </svg>
+
+                        </div>
+                    </div>
+                    <div class="col-6 col-sm-4 col-lg-3">
+                        <div class="service service--yellow">
+                            <img src="images/logo-tamin.png" class="service__icon" alt="">
+                            <h4 class="service__title">خدمات غیرحضوری</h4>
+                            <a href="https://es.tamin.ir/" target="_blank" class="app-btn  package__link">مشاهده</a>
+                            <svg class="service__wave" xmlns="http://www.w3.org/2000/svg" width="369.92"
+                                viewBox="0 0 369.92 223.59">
+                                <path id="shape"
+                                    d="M1249.08,2700.557s15.007-66.794,51.8-54.34,43.02,57.737,121.7,13.585,95.662-58.3,124.531-23.774S1619,2601.5,1619,2601.5v223.59H1249.08Z"
+                                    transform="translate(-1249.08 -2601.498)" fill="#ffbb01" />
+                            </svg>
+
+                        </div>
+                    </div>
+                    <div class="col-6 col-sm-4 col-lg-3">
+                        <div class="service service--pink">
+                            <img src="images/logo-tamin.png" class="service__icon" alt="">
+                            <h4 class="service__title">پورتال(samt)</h4>
+                            <a href="https://samt.tamin.ir/" target="_blank" class="app-btn  package__link">مشاهده</a>
+                            <svg class="service__wave" xmlns="http://www.w3.org/2000/svg" width="369.92"
+                                viewBox="0 0 369.92 223.59">
+                                <path id="shape"
+                                    d="M1249.08,2700.557s15.007-66.794,51.8-54.34,43.02,57.737,121.7,13.585,95.662-58.3,124.531-23.774S1619,2601.5,1619,2601.5v223.59H1249.08Z"
+                                    transform="translate(-1249.08 -2601.498)" fill="#f5276c" />
+                            </svg>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="fan-mostamari">
+            <div class="container">
+                <div class="section-head">
+                    <h3 class="section-head__title">بیمه شدگان و مستمریها</h3>
+                    <span class="section-head__line"></span>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-6 col-sm-4 col-lg-3">
+                        <div class="service service--purple">
+                            <img src="images/تعهدات کوتاه مدت.png" class="service__icon" alt="">
+                            <h4 class="service__title"> تعهدات کوتاه مدت</h4>
+
+                            <a href="https://stp.tamin.ir/" target="_blank" class="app-btn  package__link">مشاهده</a>
+                            <svg class="service__wave" xmlns="http://www.w3.org/2000/svg" width="369.92"
+                                viewBox="0 0 369.92 223.59">
+                                <path id="shape"
+                                    d="M1249.08,2700.557s15.007-66.794,51.8-54.34,43.02,57.737,121.7,13.585,95.662-58.3,124.531-23.774S1619,2601.5,1619,2601.5v223.59H1249.08Z"
+                                    transform="translate(-1249.08 -2601.498)" fill="#803afb" />
+                            </svg>
+
+                        </div>
+                    </div>
+                    <div class="col-6 col-sm-4 col-lg-3">
+                        <div class="service service--yellow">
+                            <img src="images/تعهدات بلند مدت.png" class="service__icon" alt="">
+                            <h4 class="service__title">تعهدات بلند مدت</h4>
+                            <a href="http://pension.tamin.ir/view/index.html" target="_blank"
+                                class="app-btn  package__link">مشاهده</a>
+                            <svg class="service__wave" xmlns="http://www.w3.org/2000/svg" width="369.92"
+                                viewBox="0 0 369.92 223.59">
+                                <path id="shape"
+                                    d="M1249.08,2700.557s15.007-66.794,51.8-54.34,43.02,57.737,121.7,13.585,95.662-58.3,124.531-23.774S1619,2601.5,1619,2601.5v223.59H1249.08Z"
+                                    transform="translate(-1249.08 -2601.498)" fill="#ffbb01" />
+                            </svg>
+
+                        </div>
+                    </div>
+                    <div class="col-6 col-sm-4 col-lg-3">
+                        <div class="service service--pink">
+                            <img src="images/دفاتر قانونی.png" class="service__icon" alt="">
+                            <h4 class="service__title">کفالت</h4>
+                            <a href="https://techins.tamin.ir/" target="_blank"
+                                class="app-btn  package__link">مشاهده</a>
+                            <svg class="service__wave" xmlns="http://www.w3.org/2000/svg" width="369.92"
+                                viewBox="0 0 369.92 223.59">
+                                <path id="shape"
+                                    d="M1249.08,2700.557s15.007-66.794,51.8-54.34,43.02,57.737,121.7,13.585,95.662-58.3,124.531-23.774S1619,2601.5,1619,2601.5v223.59H1249.08Z"
+                                    transform="translate(-1249.08 -2601.498)" fill="#f5276c" />
+                            </svg>
+
+                        </div>
+                    </div>
+                    <div class="col-6 col-sm-4 col-lg-3">
+                        <div class="service service--orange">
+                            <img src="images/پرونده الکترونیک.png" class="service__icon" alt="">
+                            <h4 class="service__title">پرونده الکترونیک</h4>
+                            <a href="https://erecords.tamin.ir/" target="_blank"
+                                class="app-btn  package__link">مشاهده</a>
+
+                            <svg class="service__wave" xmlns="http://www.w3.org/2000/svg" width="369.92"
+                                viewBox="0 0 369.92 223.59">
+                                <path id="shape"
+                                    d="M1249.08,2700.557s15.007-66.794,51.8-54.34,43.02,57.737,121.7,13.585,95.662-58.3,124.531-23.774S1619,2601.5,1619,2601.5v223.59H1249.08Z"
+                                    transform="translate(-1249.08 -2601.498)" fill="#ff5823" />
+                            </svg>
+
+                        </div>
+                    </div>
+                    <div class="col-6 col-sm-4 col-lg-3">
+                        <div class="service service--blue">
+                            <img src="images/کمیسیون پزشکی.png" class="service__icon" alt="">
+                            <h4 class="service__title">کمیسیون پزشکی</h4>
+                            <a href="https://bmc.tamin.ir/" target="_blank" class="app-btn  package__link">مشاهده</a>
+                            <svg class="service__wave" xmlns="http://www.w3.org/2000/svg" width="369.92"
+                                viewBox="0 0 369.92 223.59">
+                                <path id="shape"
+                                    d="M1249.08,2700.557s15.007-66.794,51.8-54.34,43.02,57.737,121.7,13.585,95.662-58.3,124.531-23.774S1619,2601.5,1619,2601.5v223.59H1249.08Z"
+                                    transform="translate(-1249.08 -2601.498)" fill="#03acf8" />
+                            </svg>
+
+                        </div>
+                    </div>
+                    <div class="col-6 col-sm-4 col-lg-3">
+                        <div class="service service--green">
+                            <img src="images/logo-tamin.png" class="service__icon" alt="">
+                            <h4 class="service__title">خدمات غیرحضوری</h4>
+                            <a href="https://es.tamin.ir/" target="_blank" class="app-btn  package__link">مشاهده</a>
+                            <svg class="service__wave" xmlns="http://www.w3.org/2000/svg" width="369.92"
+                                viewBox="0 0 369.92 223.59">
+                                <path id="shape"
+                                    d="M1249.08,2700.557s15.007-66.794,51.8-54.34,43.02,57.737,121.7,13.585,95.662-58.3,124.531-23.774S1619,2601.5,1619,2601.5v223.59H1249.08Z"
+                                    transform="translate(-1249.08 -2601.498)" fill="#49b846" />
+                            </svg>
+
+                        </div>
+                    </div>
+                    <div class="col-6 col-sm-4 col-lg-3">
+                        <div class="service service--purple">
+                            <img src="images/لوگو تامین اجتماعی.png" class="service__icon" alt="">
+                            <h4 class="service__title">داشبورد مستمریها</h4>
+
+                            <a href="http://10.16.1.232:9502/bi-security-login/" target="_blank"
+                                class="app-btn  package__link">مشاهده</a>
+                            <svg class="service__wave" xmlns="http://www.w3.org/2000/svg" width="369.92"
+                                viewBox="0 0 369.92 223.59">
+                                <path id="shape"
+                                    d="M1249.08,2700.557s15.007-66.794,51.8-54.34,43.02,57.737,121.7,13.585,95.662-58.3,124.531-23.774S1619,2601.5,1619,2601.5v223.59H1249.08Z"
+                                    transform="translate(-1249.08 -2601.498)" fill="#803afb" />
+                            </svg>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <section class="namnevici">
+            <div class="container">
+                <div class="section-head">
+                    <h3 class="section-head__title">نامنویسی و حسابهای انفرادی</h3>
+                    <span class="section-head__line"></span>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-6 col-sm-4 col-lg-3">
+                        <div class="service service--purple">
+                            <img src="images/نامنویسی بیمه شدگان.png" class="service__icon" alt="">
+                            <h4 class="service__title">نامنویسی</h4>
+
+                            <a href="http://registration.tamin.ir/view/index.html" target="_blank"
+                                class="app-btn  package__link">مشاهده</a>
+                            <svg class="service__wave" xmlns="http://www.w3.org/2000/svg" width="369.92"
+                                viewBox="0 0 369.92 223.59">
+                                <path id="shape"
+                                    d="M1249.08,2700.557s15.007-66.794,51.8-54.34,43.02,57.737,121.7,13.585,95.662-58.3,124.531-23.774S1619,2601.5,1619,2601.5v223.59H1249.08Z"
+                                    transform="translate(-1249.08 -2601.498)" fill="#803afb" />
+                            </svg>
+
+                        </div>
+                    </div>
+                    <div class="col-6 col-sm-4 col-lg-3">
+                        <div class="service service--yellow">
+                            <img src="images/حسابهای انفرادی.png" class="service__icon" alt="">
+                            <h4 class="service__title">حسابهای انفرادی</h4>
+                            <a href="https://individual.tamin.ir/" target="_blank"
+                                class="app-btn  package__link">مشاهده</a>
+                            <svg class="service__wave" xmlns="http://www.w3.org/2000/svg" width="369.92"
+                                viewBox="0 0 369.92 223.59">
+                                <path id="shape"
+                                    d="M1249.08,2700.557s15.007-66.794,51.8-54.34,43.02,57.737,121.7,13.585,95.662-58.3,124.531-23.774S1619,2601.5,1619,2601.5v223.59H1249.08Z"
+                                    transform="translate(-1249.08 -2601.498)" fill="#ffbb01" />
+                            </svg>
+
+                        </div>
+                    </div>
+                    <div class="col-6 col-sm-4 col-lg-3">
+                        <div class="service service--pink">
+                            <img src="images/حسابهای انفرادی.png" class="service__icon" alt="">
+                            <h4 class="service__title">کاربرگ سابقه</h4>
+                            <a href="https://individual-test.tamin.ir/view/index.html" target="_blank"
+                                class="app-btn  package__link">مشاهده</a>
+                            <svg class="service__wave" xmlns="http://www.w3.org/2000/svg" width="369.92"
+                                viewBox="0 0 369.92 223.59">
+                                <path id="shape"
+                                    d="M1249.08,2700.557s15.007-66.794,51.8-54.34,43.02,57.737,121.7,13.585,95.662-58.3,124.531-23.774S1619,2601.5,1619,2601.5v223.59H1249.08Z"
+                                    transform="translate(-1249.08 -2601.498)" fill="#f5276c" />
+                            </svg>
+
+                        </div>
+                    </div>
+                    <div class="col-6 col-sm-4 col-lg-3">
+                        <div class="service service--orange">
+                            <img src="images/پرونده الکترونیک.png" class="service__icon" alt="">
+                            <h4 class="service__title">پرونده الکترونیک</h4>
+                            <a href="https://erecords.tamin.ir/" target="_blank"
+                                class="app-btn  package__link">مشاهده</a>
+
+                            <svg class="service__wave" xmlns="http://www.w3.org/2000/svg" width="369.92"
+                                viewBox="0 0 369.92 223.59">
+                                <path id="shape"
+                                    d="M1249.08,2700.557s15.007-66.794,51.8-54.34,43.02,57.737,121.7,13.585,95.662-58.3,124.531-23.774S1619,2601.5,1619,2601.5v223.59H1249.08Z"
+                                    transform="translate(-1249.08 -2601.498)" fill="#ff5823" />
+                            </svg>
+
+                        </div>
+                    </div>
+                    <div class="col-6 col-sm-4 col-lg-3">
+                        <div class="service service--blue">
+                            <img src="images/کارگران ساختمانی.png" class="service__icon" alt="">
+                            <h4 class="service__title">کارگران ساختمانی</h4>
+                            <a href="https://bws.tamin.ir/" target="_blank" class="app-btn  package__link">مشاهده</a>
+                            <svg class="service__wave" xmlns="http://www.w3.org/2000/svg" width="369.92"
+                                viewBox="0 0 369.92 223.59">
+                                <path id="shape"
+                                    d="M1249.08,2700.557s15.007-66.794,51.8-54.34,43.02,57.737,121.7,13.585,95.662-58.3,124.531-23.774S1619,2601.5,1619,2601.5v223.59H1249.08Z"
+                                    transform="translate(-1249.08 -2601.498)" fill="#03acf8" />
+                            </svg>
+
+                        </div>
+                    </div>
+                    <div class="col-6 col-sm-4 col-lg-3">
+                        <div class="service service--green">
+                            <img src="images/logo-tamin.png" class="service__icon" alt="">
+                            <h4 class="service__title">خدمات غیرحضوری</h4>
+                            <a href="https://es.tamin.ir/" target="_blank" class="app-btn  package__link">مشاهده</a>
+                            <svg class="service__wave" xmlns="http://www.w3.org/2000/svg" width="369.92"
+                                viewBox="0 0 369.92 223.59">
+                                <path id="shape"
+                                    d="M1249.08,2700.557s15.007-66.794,51.8-54.34,43.02,57.737,121.7,13.585,95.662-58.3,124.531-23.774S1619,2601.5,1619,2601.5v223.59H1249.08Z"
+                                    transform="translate(-1249.08 -2601.498)" fill="#49b846" />
+                            </svg>
+
+                        </div>
+                    </div>
+                    <div class="col-6 col-sm-4 col-lg-3">
+                        <div class="service service--purple">
+                            <img src="images/درمان.png" class="service__icon" alt="">
+                            <h4 class="service__title">درمان</h4>
+
+                            <a href="http://medical-booklet.tamin.ir/" target="_blank"
+                                class="app-btn  package__link">مشاهده</a>
+                            <svg class="service__wave" xmlns="http://www.w3.org/2000/svg" width="369.92"
+                                viewBox="0 0 369.92 223.59">
+                                <path id="shape"
+                                    d="M1249.08,2700.557s15.007-66.794,51.8-54.34,43.02,57.737,121.7,13.585,95.662-58.3,124.531-23.774S1619,2601.5,1619,2601.5v223.59H1249.08Z"
+                                    transform="translate(-1249.08 -2601.498)" fill="#803afb" />
+                            </svg>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <section class="edari-mali">
+            <div class="container">
+                <div class="section-head">
+                    <h3 class="section-head__title">اداری و مالی</h3>
+                    <span class="section-head__line"></span>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-6 col-sm-4 col-lg-3">
+                        <div class="service service--purple">
+                            <img src="images/اتوماسیون.png" class="service__icon" alt="">
+                            <h4 class="service__title">اتوماسیون</h4>
+
+                            <a href="https://automation.tamin.ir/" target="_blank"
+                                class="app-btn  package__link">مشاهده</a>
+                            <svg class="service__wave" xmlns="http://www.w3.org/2000/svg" width="369.92"
+                                viewBox="0 0 369.92 223.59">
+                                <path id="shape"
+                                    d="M1249.08,2700.557s15.007-66.794,51.8-54.34,43.02,57.737,121.7,13.585,95.662-58.3,124.531-23.774S1619,2601.5,1619,2601.5v223.59H1249.08Z"
+                                    transform="translate(-1249.08 -2601.498)" fill="#803afb" />
+                            </svg>
+
+                        </div>
+                    </div>
+                    <div class="col-6 col-sm-4 col-lg-3">
+                        <div class="service service--yellow">
+                            <img src="images/دیدگاه.svg" class="service__icon" alt="">
+                            <h4 class="service__title">دیدگاه</h4>
+                            <a href="https://hr5.tamin.ir/" target="_blank" class="app-btn  package__link">مشاهده</a>
+                            <svg class="service__wave" xmlns="http://www.w3.org/2000/svg" width="369.92"
+                                viewBox="0 0 369.92 223.59">
+                                <path id="shape"
+                                    d="M1249.08,2700.557s15.007-66.794,51.8-54.34,43.02,57.737,121.7,13.585,95.662-58.3,124.531-23.774S1619,2601.5,1619,2601.5v223.59H1249.08Z"
+                                    transform="translate(-1249.08 -2601.498)" fill="#ffbb01" />
+                            </svg>
+
+                        </div>
+                    </div>
+                    <div class="col-6 col-sm-4 col-lg-3">
+                        <div class="service service--green">
+                            <img src="images/سانا.png" class="service__icon" alt="">
+                            <h4 class="service__title">عقیق</h4>
+                            <a href="http://182.24.0.200/" target="_blank" class="app-btn  package__link">مشاهده</a>
+                            <svg class="service__wave" xmlns="http://www.w3.org/2000/svg" width="369.92"
+                                viewBox="0 0 369.92 223.59">
+                                <path id="shape"
+                                    d="M1249.08,2700.557s15.007-66.794,51.8-54.34,43.02,57.737,121.7,13.585,95.662-58.3,124.531-23.774S1619,2601.5,1619,2601.5v223.59H1249.08Z"
+                                    transform="translate(-1249.08 -2601.498)" fill="#49b846" />
+                            </svg>
+
+                        </div>
+                    </div>
+                    <div class="col-6 col-sm-4 col-lg-3">
+                        <div class="service service--pink">
+                            <img src="images/بودجه.png" class="service__icon" alt="">
+                            <h4 class="service__title">بودجه </h4>
+                            <a href="https://centralized-budget.tamin.ir/ui/index.html" target="_blank"
+                                class="app-btn  package__link">مشاهده</a>
+                            <svg class="service__wave" xmlns="http://www.w3.org/2000/svg" width="369.92"
+                                viewBox="0 0 369.92 223.59">
+                                <path id="shape"
+                                    d="M1249.08,2700.557s15.007-66.794,51.8-54.34,43.02,57.737,121.7,13.585,95.662-58.3,124.531-23.774S1619,2601.5,1619,2601.5v223.59H1249.08Z"
+                                    transform="translate(-1249.08 -2601.498)" fill="#f5276c" />
+                            </svg>
+
+                        </div>
+                    </div>
+                    <div class="col-6 col-sm-4 col-lg-3">
+                        <div class="service service--orange">
+                            <img src="images/اموال.jpg" class="service__icon" alt="">
+                            <h4 class="service__title">اموال </h4>
+                            <a href="https://centralasset.tamin.ir/" target="_blank" class="app-btn  package__link">مشاهده</a>
+
+                            <svg class="service__wave" xmlns="http://www.w3.org/2000/svg" width="369.92"
+                                viewBox="0 0 369.92 223.59">
+                                <path id="shape"
+                                    d="M1249.08,2700.557s15.007-66.794,51.8-54.34,43.02,57.737,121.7,13.585,95.662-58.3,124.531-23.774S1619,2601.5,1619,2601.5v223.59H1249.08Z"
+                                    transform="translate(-1249.08 -2601.498)" fill="#ff5823" />
+                            </svg>
+
+                        </div>
+                    </div>
+                    <div class="col-6 col-sm-4 col-lg-3">
+                        <div class="service service--blue">
+                            <img src="images/معین.png" class="service__icon" alt="">
+                            <h4 class="service__title">معین</h4>
+                            <a href="https://refah-moein.rb24.ir/" target="_blank" class="app-btn  package__link">مشاهده</a>
+                            <svg class="service__wave" xmlns="http://www.w3.org/2000/svg" width="369.92"
+                                viewBox="0 0 369.92 223.59">
+                                <path id="shape"
+                                    d="M1249.08,2700.557s15.007-66.794,51.8-54.34,43.02,57.737,121.7,13.585,95.662-58.3,124.531-23.774S1619,2601.5,1619,2601.5v223.59H1249.08Z"
+                                    transform="translate(-1249.08 -2601.498)" fill="#03acf8" />
+                            </svg>
+
+                        </div>
+                    </div>
+                    <div class="col-6 col-sm-4 col-lg-3">
+                        <div class="service service--purple">
+                            <img src="images/مالیات.png" class="service__icon" alt="">
+                            <h4 class="service__title">مالیات حقوق</h4>
+
+                            <a href="https://salary.tax.gov.ir/Account/" target="_blank"
+                                class="app-btn  package__link">مشاهده</a>
+                            <svg class="service__wave" xmlns="http://www.w3.org/2000/svg" width="369.92"
+                                viewBox="0 0 369.92 223.59">
+                                <path id="shape"
+                                    d="M1249.08,2700.557s15.007-66.794,51.8-54.34,43.02,57.737,121.7,13.585,95.662-58.3,124.531-23.774S1619,2601.5,1619,2601.5v223.59H1249.08Z"
+                                    transform="translate(-1249.08 -2601.498)" fill="#803afb" />
+                            </svg>
+
+                        </div>
+                    </div>
+                    <div class="col-6 col-sm-4 col-lg-3">
+                        <div class="service service--yellow">
+                            <img src="images/مالیات.png" class="service__icon" alt="">
+                            <h4 class="service__title">معاملات فصلي</h4>
+                            <a href="https://ttms.tax.gov.ir/" target="_blank" class="app-btn  package__link">مشاهده</a>
+                            <svg class="service__wave" xmlns="http://www.w3.org/2000/svg" width="369.92"
+                                viewBox="0 0 369.92 223.59">
+                                <path id="shape"
+                                    d="M1249.08,2700.557s15.007-66.794,51.8-54.34,43.02,57.737,121.7,13.585,95.662-58.3,124.531-23.774S1619,2601.5,1619,2601.5v223.59H1249.08Z"
+                                    transform="translate(-1249.08 -2601.498)" fill="#ffbb01" />
+                            </svg>
+
+                        </div>
+                    </div>
+                    <div class="col-6 col-sm-4 col-lg-3">
+                        <div class="service service--green">
+                            <img src="images/مالیات.png" class="service__icon" alt="">
+                            <h4 class="service__title">خدمات الکترونيکي مالياتي</h4>
+                            <a href="https://my.tax.gov.ir/" target="_blank" class="app-btn  package__link">مشاهده</a>
+                            <svg class="service__wave" xmlns="http://www.w3.org/2000/svg" width="369.92"
+                                viewBox="0 0 369.92 223.59">
+                                <path id="shape"
+                                    d="M1249.08,2700.557s15.007-66.794,51.8-54.34,43.02,57.737,121.7,13.585,95.662-58.3,124.531-23.774S1619,2601.5,1619,2601.5v223.59H1249.08Z"
+                                    transform="translate(-1249.08 -2601.498)" fill="#49b846" />
+                            </svg>
+
+                        </div>
+                    </div>
+                    <div class="col-6 col-sm-4 col-lg-3">
+                        <div class="service service--pink">
+                            <img src="images/logo-tamin.png" class="service__icon" alt="">
+                            <h4 class="service__title">خدمات غیرحضوری</h4>
+                            <a href="https://es.tamin.ir/" target="_blank" class="app-btn  package__link">مشاهده</a>
+                            <svg class="service__wave" xmlns="http://www.w3.org/2000/svg" width="369.92"
+                                viewBox="0 0 369.92 223.59">
+                                <path id="shape"
+                                    d="M1249.08,2700.557s15.007-66.794,51.8-54.34,43.02,57.737,121.7,13.585,95.662-58.3,124.531-23.774S1619,2601.5,1619,2601.5v223.59H1249.08Z"
+                                    transform="translate(-1249.08 -2601.498)" fill="#f5276c" />
+                            </svg>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <section class="fanavari">
+            <div class="container">
+                <div class="section-head">
+                    <h3 class="section-head__title">فناوری اطلاعات</h3>
+                    <span class="section-head__line"></span>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-6 col-sm-4 col-lg-3">
+                        <div class="service service--purple">
+                            <img src="images/logo sherkat tamin.png" class="service__icon" alt="">
+                            <h4 class="service__title">جیرا</h4>
+
+                            <a href="https://jira.tamin.ir/" target="_blank" class="app-btn  package__link">مشاهده</a>
+                            <svg class="service__wave" xmlns="http://www.w3.org/2000/svg" width="369.92"
+                                viewBox="0 0 369.92 223.59">
+                                <path id="shape"
+                                    d="M1249.08,2700.557s15.007-66.794,51.8-54.34,43.02,57.737,121.7,13.585,95.662-58.3,124.531-23.774S1619,2601.5,1619,2601.5v223.59H1249.08Z"
+                                    transform="translate(-1249.08 -2601.498)" fill="#803afb" />
+                            </svg>
+
+                        </div>
+                    </div>
+                    <div class="col-6 col-sm-4 col-lg-3">
+                        <div class="service service--yellow">
+                            <img src="images/software.png" class="service__icon" alt="">
+                            <h4 class="service__title">تایید نرم افزار</h4>
+                            <a href="http://softpm.tamin.org:8585/" target="_blank"
+                                class="app-btn  package__link">مشاهده</a>
+                            <svg class="service__wave" xmlns="http://www.w3.org/2000/svg" width="369.92"
+                                viewBox="0 0 369.92 223.59">
+                                <path id="shape"
+                                    d="M1249.08,2700.557s15.007-66.794,51.8-54.34,43.02,57.737,121.7,13.585,95.662-58.3,124.531-23.774S1619,2601.5,1619,2601.5v223.59H1249.08Z"
+                                    transform="translate(-1249.08 -2601.498)" fill="#ffbb01" />
+                            </svg>
+
+                        </div>
+                    </div>
+                    <div class="col-6 col-sm-4 col-lg-3">
+                        <div class="service service--pink">
+                            <img src="images/software.png" class="service__icon" alt="">
+                            <h4 class="service__title">تایید سخت افزار </h4>
+                            <a href="http://hardpm.tamin.org:8084/" target="_blank"
+                                class="app-btn  package__link">مشاهده</a>
+                            <svg class="service__wave" xmlns="http://www.w3.org/2000/svg" width="369.92"
+                                viewBox="0 0 369.92 223.59">
+                                <path id="shape"
+                                    d="M1249.08,2700.557s15.007-66.794,51.8-54.34,43.02,57.737,121.7,13.585,95.662-58.3,124.531-23.774S1619,2601.5,1619,2601.5v223.59H1249.08Z"
+                                    transform="translate(-1249.08 -2601.498)" fill="#f5276c" />
+                            </svg>
+
+                        </div>
+                    </div>
+                    <div class="col-6 col-sm-4 col-lg-3">
+                        <div class="service service--orange">
+                            <img src="images/لوگو تامین اجتماعی.png" class="service__icon" alt="">
+                            <h4 class="service__title">داشبورد آمار</h4>
+                            <a href="http://182.16.0.35:9704/analytics/" target="_blank"
+                                class="app-btn  package__link">مشاهده</a>
+
+                            <svg class="service__wave" xmlns="http://www.w3.org/2000/svg" width="369.92"
+                                viewBox="0 0 369.92 223.59">
+                                <path id="shape"
+                                    d="M1249.08,2700.557s15.007-66.794,51.8-54.34,43.02,57.737,121.7,13.585,95.662-58.3,124.531-23.774S1619,2601.5,1619,2601.5v223.59H1249.08Z"
+                                    transform="translate(-1249.08 -2601.498)" fill="#ff5823" />
+                            </svg>
+
+                        </div>
+                    </div>
+                    <div class="col-6 col-sm-4 col-lg-3">
+                        <div class="service service--blue">
+                            <img src="images/logo-tamin.png" class="service__icon" alt="">
+                            <h4 class="service__title">خدمات غیرحضوری</h4>
+                            <a href="https://es.tamin.ir/" target="_blank" class="app-btn  package__link">مشاهده</a>
+                            <svg class="service__wave" xmlns="http://www.w3.org/2000/svg" width="369.92"
+                                viewBox="0 0 369.92 223.59">
+                                <path id="shape"
+                                    d="M1249.08,2700.557s15.007-66.794,51.8-54.34,43.02,57.737,121.7,13.585,95.662-58.3,124.531-23.774S1619,2601.5,1619,2601.5v223.59H1249.08Z"
+                                    transform="translate(-1249.08 -2601.498)" fill="#03acf8" />
+                            </svg>
+
+                        </div>
+                    </div>
+
+
+
+                </div>
+            </div>
+        </section>
+        <section class="others">
+            <div class="container">
+                <div class="section-head">
+                    <h3 class="section-head__title">سایر سامانه ها</h3>
+                    <span class="section-head__line"></span>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="others-right col-6">
+                        <h4 class="section-head__title text-align-center">درون سازمانی</h4>
+                        <div class="row justify-content-center">
+                            <div class="col-6">
+                                <div class="service service--purple">
+                                    <img src="images/crm.png" class="service__icon" alt="">
+                                    <h4 class="service__title">مشاوره</h4>
+
+                                    <a href="https://ssocrm.tamin.ir/" target="_blank"
+                                        class="app-btn  package__link">مشاهده</a>
+                                    <svg class="service__wave" xmlns="http://www.w3.org/2000/svg" width="369.92"
+                                        viewBox="0 0 369.92 223.59">
+                                        <path id="shape"
+                                            d="M1249.08,2700.557s15.007-66.794,51.8-54.34,43.02,57.737,121.7,13.585,95.662-58.3,124.531-23.774S1619,2601.5,1619,2601.5v223.59H1249.08Z"
+                                            transform="translate(-1249.08 -2601.498)" fill="#803afb" />
+                                    </svg>
+
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div class="service service--yellow">
+                                    <img src="images/لوگو تامین اجتماعی.png" class="service__icon" alt="">
+                                    <h4 class="service__title">آموزش</h4>
+                                    <a href="http://training.tamin.ir/" target="_blank"
+                                        class="app-btn  package__link">مشاهده</a>
+                                    <svg class="service__wave" xmlns="http://www.w3.org/2000/svg" width="369.92"
+                                        viewBox="0 0 369.92 223.59">
+                                        <path id="shape"
+                                            d="M1249.08,2700.557s15.007-66.794,51.8-54.34,43.02,57.737,121.7,13.585,95.662-58.3,124.531-23.774S1619,2601.5,1619,2601.5v223.59H1249.08Z"
+                                            transform="translate(-1249.08 -2601.498)" fill="#ffbb01" />
+                                    </svg>
+
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div class="service service--pink">
+                                    <img src="images/logo-tamin.png" class="service__icon" alt="">
+                                    <h4 class="service__title">تامین اجتماعی</h4>
+                                    <a href="https://tamin.ir/" target="_blank"
+                                        class="app-btn  package__link">مشاهده</a>
+                                    <svg class="service__wave" xmlns="http://www.w3.org/2000/svg" width="369.92"
+                                        viewBox="0 0 369.92 223.59">
+                                        <path id="shape"
+                                            d="M1249.08,2700.557s15.007-66.794,51.8-54.34,43.02,57.737,121.7,13.585,95.662-58.3,124.531-23.774S1619,2601.5,1619,2601.5v223.59H1249.08Z"
+                                            transform="translate(-1249.08 -2601.498)" fill="#f5276c" />
+                                    </svg>
+
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div class="service service--orange">
+                                    <img src="images/سانا.png" class="service__icon" alt="">
+                                    <h4 class="service__title">سانا</h4>
+                                    <a href="http://182.24.0.25/" target="_blank"
+                                        class="app-btn  package__link">مشاهده</a>
+        
+                                    <svg class="service__wave" xmlns="http://www.w3.org/2000/svg" width="369.92"
+                                        viewBox="0 0 369.92 223.59">
+                                        <path id="shape"
+                                            d="M1249.08,2700.557s15.007-66.794,51.8-54.34,43.02,57.737,121.7,13.585,95.662-58.3,124.531-23.774S1619,2601.5,1619,2601.5v223.59H1249.08Z"
+                                            transform="translate(-1249.08 -2601.498)" fill="#ff5823" />
+                                    </svg>
+        
+                                </div>
+                            </div>
+
+                        </div>
+
+
+                    </div>
+                    <div class="others-left col-6">
+                        <h4 class="section-head__title text-align-center"> برون سازمانی(اینترنتی)</h4>
+                        <div class="row justify-content-center">
+                            <div class="col-6">
+                                <div class="service service--orange">
+                                    <img src="images/اصناف.png" class="service__icon" alt="">
+                                    <h4 class="service__title">اصناف</h4>
+                                    <a href="https://iranianasnaf.ir/" target="_blank"
+                                        class="app-btn  package__link">مشاهده</a>
+
+                                    <svg class="service__wave" xmlns="http://www.w3.org/2000/svg" width="369.92"
+                                        viewBox="0 0 369.92 223.59">
+                                        <path id="shape"
+                                            d="M1249.08,2700.557s15.007-66.794,51.8-54.34,43.02,57.737,121.7,13.585,95.662-58.3,124.531-23.774S1619,2601.5,1619,2601.5v223.59H1249.08Z"
+                                            transform="translate(-1249.08 -2601.498)" fill="#ff5823" />
+                                    </svg>
+
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div class="service service--blue">
+                                    <img src="images/صندوق کشوری.png" class="service__icon" alt="">
+                                    <h4 class="service__title">بازنشستگی کشوری</h4>
+                                    <a href="https://www1.retirement.ir/estelammoshtarakin_n/Default.aspx"
+                                        target="_blank" class="app-btn  package__link">مشاهده</a>
+                                    <svg class="service__wave" xmlns="http://www.w3.org/2000/svg" width="369.92"
+                                        viewBox="0 0 369.92 223.59">
+                                        <path id="shape"
+                                            d="M1249.08,2700.557s15.007-66.794,51.8-54.34,43.02,57.737,121.7,13.585,95.662-58.3,124.531-23.774S1619,2601.5,1619,2601.5v223.59H1249.08Z"
+                                            transform="translate(-1249.08 -2601.498)" fill="#03acf8" />
+                                    </svg>
+
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div class="service service--green">
+                                    <img src="images/صندوق روستایی.gif" class="service__icon" alt="">
+                                    <h4 class="service__title">بازنشستگی روستایی عشایری</h4>
+                                    <a href="https://karnameh.roostaa.ir/GetInformation.aspx" target="_blank"
+                                        class="app-btn  package__link">مشاهده</a>
+                                    <svg class="service__wave" xmlns="http://www.w3.org/2000/svg" width="369.92"
+                                        viewBox="0 0 369.92 223.59">
+                                        <path id="shape"
+                                            d="M1249.08,2700.557s15.007-66.794,51.8-54.34,43.02,57.737,121.7,13.585,95.662-58.3,124.531-23.774S1619,2601.5,1619,2601.5v223.59H1249.08Z"
+                                            transform="translate(-1249.08 -2601.498)" fill="#49b846" />
+                                    </svg>
+
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div class="service service--purple">
+                                    <img src="images/شناسه ملی.png" class="service__icon" alt="">
+                                    <h4 class="service__title">روزنامه رسمی</h4>
+
+                                    <a href="https://www.rrk.ir/Default.aspx" target="_blank"
+                                        class="app-btn  package__link">مشاهده</a>
+                                    <svg class="service__wave" xmlns="http://www.w3.org/2000/svg" width="369.92"
+                                        viewBox="0 0 369.92 223.59">
+                                        <path id="shape"
+                                            d="M1249.08,2700.557s15.007-66.794,51.8-54.34,43.02,57.737,121.7,13.585,95.662-58.3,124.531-23.774S1619,2601.5,1619,2601.5v223.59H1249.08Z"
+                                            transform="translate(-1249.08 -2601.498)" fill="#803afb" />
+                                    </svg>
+
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div class="service service--yellow">
+                                    <img src="images/شناسه ملی.png" class="service__icon" alt="">
+                                    <h4 class="service__title">شناسه ملی</h4>
+                                    <a href="https://ilenc.ssaa.ir/" target="_blank"
+                                        class="app-btn  package__link">مشاهده</a>
+                                    <svg class="service__wave" xmlns="http://www.w3.org/2000/svg" width="369.92"
+                                        viewBox="0 0 369.92 223.59">
+                                        <path id="shape"
+                                            d="M1249.08,2700.557s15.007-66.794,51.8-54.34,43.02,57.737,121.7,13.585,95.662-58.3,124.531-23.774S1619,2601.5,1619,2601.5v223.59H1249.08Z"
+                                            transform="translate(-1249.08 -2601.498)" fill="#ffbb01" />
+                                    </svg>
+
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div class="service service--green">
+                                    <img src="images/جامع روابط کار.png" class="service__icon" alt="">
+                                    <h4 class="service__title">جامع روابط کار</h4>
+                                    <a href="https://prkar.mcls.gov.ir/Login" target="_blank"
+                                        class="app-btn  package__link">مشاهده</a>
+                                    <svg class="service__wave" xmlns="http://www.w3.org/2000/svg" width="369.92"
+                                        viewBox="0 0 369.92 223.59">
+                                        <path id="shape"
+                                            d="M1249.08,2700.557s15.007-66.794,51.8-54.34,43.02,57.737,121.7,13.585,95.662-58.3,124.531-23.774S1619,2601.5,1619,2601.5v223.59H1249.08Z"
+                                            transform="translate(-1249.08 -2601.498)" fill="#49b846" />
+                                    </svg>
+
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div class="service service--orange">
+                                    <img src="images/یکتا.png" class="service__icon" alt="">
+                                    <h4 class="service__title">يکتا کشوري</h4>
+                                    <a href="https://eservices.cspf.ir/Auth-api/auth/" target="_blank"
+                                        class="app-btn  package__link">مشاهده</a>
+
+                                    <svg class="service__wave" xmlns="http://www.w3.org/2000/svg" width="369.92"
+                                        viewBox="0 0 369.92 223.59">
+                                        <path id="shape"
+                                            d="M1249.08,2700.557s15.007-66.794,51.8-54.34,43.02,57.737,121.7,13.585,95.662-58.3,124.531-23.774S1619,2601.5,1619,2601.5v223.59H1249.08Z"
+                                            transform="translate(-1249.08 -2601.498)" fill="#ff5823" />
+                                    </svg>
+
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div class="service service--blue">
+                                    <img src="images/skyroomFa.png" class="service__icon" alt="">
+                                    <h4 class="service__title">اسکاي روم</h4>
+                                    <a href="https://www.skyroom.online/ch/edkolfars/"
+                                        target="_blank" class="app-btn  package__link">مشاهده</a>
+                                    <svg class="service__wave" xmlns="http://www.w3.org/2000/svg" width="369.92"
+                                        viewBox="0 0 369.92 223.59">
+                                        <path id="shape"
+                                            d="M1249.08,2700.557s15.007-66.794,51.8-54.34,43.02,57.737,121.7,13.585,95.662-58.3,124.531-23.774S1619,2601.5,1619,2601.5v223.59H1249.08Z"
+                                            transform="translate(-1249.08 -2601.498)" fill="#03acf8" />
+                                    </svg>
+
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+                </div>
+            </div>
+        </section>
+
+
+        <section class="calender">
+            <div class="container">
+                <div class="section-head">
+                    <h3 class="section-head__title">تقویم</h3>
+                    <span class="section-head__line"></span>
+                </div>
+                <!-- Slider main container -->
+                <div class="swiper">
+                    <!-- Additional required wrapper -->
+                    <div class="swiper-wrapper">
+                        <!-- Slides -->
+                        <div class="swiper-slide">
+                            <img  class="swiper-img" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img  class="swiper-img" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img  class="swiper-img" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img  class="swiper-img" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img  class="swiper-img" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img  class="swiper-img" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img  class="swiper-img" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img  class="swiper-img" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img  class="swiper-img" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img  class="swiper-img" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img  class="swiper-img" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img  class="swiper-img" alt="">
+                        </div>
+                        ...
+                    </div>
+                    <!-- If we need pagination -->
+                    <div class="swiper-pagination"></div>
+
+                    <!-- If we need navigation buttons -->
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+
+                    
+                </div>
+            </div>
+        </section>
+
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__wrapper">
+                <p class="footer__copy-right"></p>
+                <div class="footer__socials">
+                    <div class="change-theme" title="تاریک">
+                        <svg viewBox="0 0 24 24">
+                            <path
+                                d="M12.3,4.9c0.4-0.2,0.6-0.7,0.5-1.1S12.2,3,11.7,3C6.8,3.1,3,7.1,3,12c0,5,4,9,9,9c3.8,0,7.1-2.4,8.4-5.9c0.2-0.4,0-0.9-0.4-1.2c-0.4-0.3-0.9-0.2-1.2,0.1c-1,0.9-2.3,1.4-3.7,1.4c-3.1,0-5.7-2.5-5.7-5.7C9.4,7.8,10.5,5.9,12.3,4.9zM15.1,17.4c0.5,0,1,0,1.4-0.1C15.3,18.4,13.7,19,12,19c-3.9,0-7-3.1-7-7c0-2.5,1.4-4.8,3.5-6c-0.7,1.1-1,2.4-1,3.8C7.4,14,10.9,17.4,15.1,17.4z" />
+                        </svg>
+
+                    </div>
+                   
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <div class="cover"></div>
+
+    <script src="scripts/Typewriter.js"></script>
+    <script src="./scripts/swiper-bundle.min.js"></script>
+    <script src="./scripts/app.js"></script>
+    
+
+</body>
+
+</html>
